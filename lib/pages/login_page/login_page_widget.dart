@@ -145,14 +145,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
         body: Align(
           alignment: const AlignmentDirectional(0.0, -1.0),
           child: Container(
-            width: valueOrDefault<double>(
-              kBreakpointMedium != null
-                  ? valueOrDefault<double>(
-                      MediaQuery.sizeOf(context).width,
-                      100.0,
-                    )
-                  : 600.0,
-              600.0,
+            constraints: const BoxConstraints(
+              maxWidth: 430.0,
             ),
             decoration: const BoxDecoration(),
             child: SingleChildScrollView(
@@ -164,7 +158,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                         const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
                     child: Container(
                       width: double.infinity,
-                      height: 200.0,
+                      height: 160.0,
                       decoration: const BoxDecoration(),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,

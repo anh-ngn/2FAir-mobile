@@ -40,6 +40,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'LoginPage',
           path: '/loginPage',
           builder: (context, params) => const LoginPageWidget(),
+        ),
+        FFRoute(
+          name: 'CreateAccount',
+          path: '/createAccount',
+          builder: (context, params) => const CreateAccountWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

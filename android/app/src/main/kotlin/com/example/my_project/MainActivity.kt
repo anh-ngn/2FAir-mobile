@@ -1,4 +1,4 @@
-package com.mycompany.fly2fast
+package com.github.anhngw.twofair
 
 import io.flutter.embedding.android.FlutterActivity
 

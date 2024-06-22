@@ -38,15 +38,15 @@ class _List10OrderHistoryWidgetState extends State<List10OrderHistoryWidget>
           FadeEffect(
             curve: Curves.easeInOut,
             delay: 200.0.ms,
-            duration: 400.0.ms,
+            duration: 600.0.ms,
             begin: 0.0,
             end: 1.0,
           ),
           MoveEffect(
             curve: Curves.easeInOut,
             delay: 200.0.ms,
-            duration: 400.0.ms,
-            begin: const Offset(0.0, 60.0),
+            duration: 600.0.ms,
+            begin: const Offset(0.0, 100.0),
             end: const Offset(0.0, 0.0),
           ),
         ],

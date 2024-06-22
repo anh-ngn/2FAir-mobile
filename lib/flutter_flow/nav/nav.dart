@@ -52,11 +52,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const List10OrderHistoryWidget(),
         ),
         FFRoute(
-          name: 'Profile04',
-          path: '/profile04',
-          builder: (context, params) => const Profile04Widget(),
-        ),
-        FFRoute(
           name: 'Checkout4',
           path: '/checkout4',
           builder: (context, params) => const Checkout4Widget(),

@@ -624,7 +624,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget>
                                           const EdgeInsetsDirectional.fromSTEB(
                                               0.0, 0.0, 0.0, 0.0),
                                       color: FlutterFlowTheme.of(context)
-                                          .secondaryBackground,
+                                          .alternate,
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
@@ -633,7 +633,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget>
                                                 .primaryText,
                                             letterSpacing: 0.0,
                                           ),
-                                      elevation: 0.0,
+                                      elevation: 3.0,
                                       borderSide: BorderSide(
                                         color: FlutterFlowTheme.of(context)
                                             .alternate,
@@ -664,7 +664,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget>
                                           const EdgeInsetsDirectional.fromSTEB(
                                               0.0, 0.0, 0.0, 0.0),
                                       color: FlutterFlowTheme.of(context)
-                                          .secondaryBackground,
+                                          .alternate,
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
@@ -673,7 +673,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget>
                                                 .primaryText,
                                             letterSpacing: 0.0,
                                           ),
-                                      elevation: 0.0,
+                                      elevation: 3.0,
                                       borderSide: BorderSide(
                                         color: FlutterFlowTheme.of(context)
                                             .alternate,

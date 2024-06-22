@@ -141,7 +141,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: Align(
           alignment: const AlignmentDirectional(0.0, -1.0),
           child: Container(
@@ -287,7 +287,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                     ),
                                     filled: true,
                                     fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
+                                        .primaryBackground,
                                     contentPadding: const EdgeInsets.all(24.0),
                                   ),
                                   style: FlutterFlowTheme.of(context)
@@ -356,7 +356,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                     ),
                                     filled: true,
                                     fillColor: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
+                                        .primaryBackground,
                                     contentPadding: const EdgeInsets.all(24.0),
                                     suffixIcon: InkWell(
                                       onTap: () => setState(
@@ -439,7 +439,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                     iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 0.0),
                                     color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
+                                        .primaryBackground,
                                     textStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -449,7 +449,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                     elevation: 0.0,
                                     borderSide: BorderSide(
                                       color: FlutterFlowTheme.of(context)
-                                          .secondaryBackground,
+                                          .primaryBackground,
                                       width: 2.0,
                                     ),
                                     borderRadius: BorderRadius.circular(12.0),
@@ -512,7 +512,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                   .fromSTEB(0.0, 0.0, 0.0, 0.0),
                                               color:
                                                   FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                                      .alternate,
                                               textStyle: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -521,12 +521,12 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,
                                                   ),
-                                              elevation: 0.0,
+                                              elevation: 3.0,
                                               borderSide: BorderSide(
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .alternate,
-                                                width: 2.0,
+                                                width: 1.0,
                                               ),
                                               borderRadius:
                                                   BorderRadius.circular(12.0),
@@ -556,7 +556,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                   .fromSTEB(0.0, 0.0, 0.0, 0.0),
                                               color:
                                                   FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                                      .alternate,
                                               textStyle: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -565,7 +565,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,
                                                   ),
-                                              elevation: 0.0,
+                                              elevation: 3.0,
                                               borderSide: BorderSide(
                                                 color:
                                                     FlutterFlowTheme.of(context)
